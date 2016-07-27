@@ -1,0 +1,21 @@
+.textbox {
+   width: 174px;
+   height: 20px;
+   border: solid 2px #00E3E3;
+   padding: 2px;
+   border-radius: 5px;
+   font-size: 12px;
+   background-color: #FFFFFF;
+   outline: none;
+   color: #474747;
+  }
+.textbox:hover  {
+   border: 2px solid #FF00D5;
+  }
+.textbox:focus  {
+   border: solid 2px #00D43C;
+   box-shadow: inset 0px 1px 2px 0px #9C9C9C;
+  }
+.textbox:active  {
+   border: solid 2px #0043EB;
+  }
